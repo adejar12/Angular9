@@ -1,0 +1,15 @@
+.footer {
+    position: fixed;
+    /*bottom 0 para ficar em baixo de tudo*/
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* aplicando no filho direto */
+
+.footer>span {
+    font-size: 1rem;
+    font-weight: 300;
+}

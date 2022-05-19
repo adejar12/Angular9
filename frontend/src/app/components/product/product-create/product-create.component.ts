@@ -6,13 +6,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./product-create.component.css"],
 })
 export class ProductCreateComponent implements OnInit {
-  atributoLog = "um valor por ai";
-
   constructor() {}
 
   ngOnInit(): void {}
-
-  fazerAlgo(): void {
-    console.log("Fazendo Algo");
-  }
 }
